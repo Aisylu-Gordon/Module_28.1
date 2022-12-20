@@ -16,4 +16,5 @@ test_SF_RT_passport - набор автотестов, нумерация соо
 python -m pytest -v --driver Chrome --driver-path chromedriver.exe test_SF_RT_passport.py
 
 В тесты добавлены паузы, поскольку система отслеживает частое обращение к себе и включает капчу, что препятствует проведению автотестов.
+
 C тест-кейсами и багами можно ознакомиться по ссылке https://docs.google.com/spreadsheets/d/1kmFtLbOPI82rpmkWScGGyH2u4gOLS7FnFscGB6ibdDU/edit?usp=sharing
